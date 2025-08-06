@@ -4,6 +4,7 @@
  * @brief Duplicates a string to a new memory allocated area.
  * @param s The string that will be duplicated.
  * @return Returns a pointer to the new duplicated string.
+ * @warning Needs to use free() after its final use in the program, avoiding memory leaks.
  * */
 
 char    *ft_strdup(const char *s) {

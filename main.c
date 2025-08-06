@@ -3,9 +3,10 @@
 #include <string.h>
 
 int main(void) {
-    char s[] = "Andre";
-    char *new = ft_strdup(s);
-    printf("%s\n", new);
-    return 0;
+	char s[20] = "Andre";
+	char new[10] = "Luiz";
+	ft_strcat(s, new);
+	printf("%s\n", s);
+  return 0;
 }
 
